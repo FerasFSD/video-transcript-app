@@ -1,3 +1,5 @@
+-e .
+streamlit==1.33.0
 streamlit==1.33.0
 moviepy==1.0.3
 openai-whisper==20231117
