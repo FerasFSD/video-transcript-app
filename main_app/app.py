@@ -1,9 +1,9 @@
 import streamlit as st
 import os
-from .video_to_audio import convert_video_to_audio
-from .audio_to_text import transcribe_audio, save_transcription
-from .text_extractor import extract_text_from_file
-from .utils.file_utils import clean_temp_files
+from main_app.video_to_audio import convert_video_to_audio
+from main_app.audio_to_text import transcribe_audio, save_transcription
+from main_app.text_extractor import extract_text_from_file
+from main_app.utils.file_utils import clean_temp_files
 
 # Konfiguration
 st.set_page_config(page_title="Multi-File Processor", layout="wide")
