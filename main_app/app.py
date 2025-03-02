@@ -4,7 +4,11 @@ from main_app.video_to_audio import convert_video_to_audio
 from main_app.audio_to_text import transcribe_audio, save_transcription
 from main_app.text_extractor import extract_text_from_file
 from main_app.utils.file_utils import clean_temp_files
+import sys
+from pathlib import Path
 
+# Fügen Sie das Projektverzeichnis zum Python-Pfad hinzu
+sys.path.insert(0, str(Path(__file__).parent.parent))
 # Konfiguration
 st.set_page_config(page_title="Multi-File Processor", layout="wide")
 
