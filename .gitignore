@@ -1,0 +1,47 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+*.venv
+*.egg-info/
+dist/
+build/
+
+# Temp-Ordner
+temp_audio/
+temp_text/
+
+# Environment & Secrets
+.env
+.secrets
+.env.local
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Logs und Daten
+*.log
+*.sqlite
+*.db
+
+# Große Dateien/Modelle
+*.pth
+*.bin
+*.h5
+*.zip
+*.tar.gz
+
+# System
+.DS_Store
+Thumbs.db
+
+# Streamlit-Spezifisch
+.streamlit/
+data/
+test.py
